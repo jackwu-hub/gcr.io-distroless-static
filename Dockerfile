@@ -8,4 +8,5 @@
 # FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.26.0@sha256:79cf8b670ab008d605362641443648d9ac0ff247f1f943bb4d5209716a9b49fa
 # FROM k8s.gcr.io/metrics-server/metrics-server:v0.6.1
 # FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.15.0
-FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.15.0
+# FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.15.0
+FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.15.0
