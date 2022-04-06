@@ -8,4 +8,5 @@
 # FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink:v0.15.0
 # FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors:v0.15.0
 # FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook:v0.15.0
-FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.15.0
+# FROM gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/controller:v0.15.0
+FROM gcr.io/kaniko-project/executor:v1.6.0
