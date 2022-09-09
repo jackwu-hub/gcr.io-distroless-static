@@ -14,4 +14,5 @@
 # FROM nginxinc/nginx-unprivileged:1.17.9
 # FROM ghcr.io/jenkins-x-plugins/jx-preview:0.0.221
 # FROM ghcr.io/jenkins-x/lighthouse-gc-jobs:1.9.0
-FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.29.0
+# FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.29.0
+FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.29.0
