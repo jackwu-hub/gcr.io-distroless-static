@@ -12,4 +12,5 @@
 # FROM ghcr.io/jenkins-x/jx-git-operator:0.0.198
 # FROM ghcr.io/jenkins-x/jx-boot:3.4.19
 # FROM nginxinc/nginx-unprivileged:1.17.9
-FROM ghcr.io/jenkins-x-plugins/jx-preview:0.0.221
+# FROM ghcr.io/jenkins-x-plugins/jx-preview:0.0.221
+FROM ghcr.io/jenkins-x/lighthouse-gc-jobs:1.9.0
