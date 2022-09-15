@@ -16,4 +16,5 @@
 # FROM ghcr.io/jenkins-x/lighthouse-gc-jobs:1.9.0
 # FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.29.0
 # FROM gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.29.0
-FROM k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1
+# FROM k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1
+FROM docker.io/nicolaka/netshoot:latest
